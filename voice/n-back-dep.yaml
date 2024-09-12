@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: n-backend-dep
+  labels:
+    app: n-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: n-backend
+  template:
+    metadata:
+      labels:
+        app: n-backend
+    spec:
+      containers:
+      - name: n-backend-container
+        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/voice:latest
+        ports:
+        - containerPort: 5000
