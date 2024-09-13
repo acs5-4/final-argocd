@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: langchain-container
-        image: alstjrdlep/langchain:10
+        image: alstjrdlep/langchain:11
         ports:
         - containerPort: 5000
