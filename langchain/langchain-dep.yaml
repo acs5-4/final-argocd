@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: langchain-container
-        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/langchain:21
+        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/langchain:22
         ports:
         - containerPort: 5000
