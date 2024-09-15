@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: s-backend-container
-        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/engking-member:latest
+        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/engking-member:9
         ports:
         - containerPort: 8888
