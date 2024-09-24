@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: n-backend-container
-        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/voice:17
+        image: 355627705292.dkr.ecr.ap-northeast-1.amazonaws.com/voice:19
         ports:
         - containerPort: 8000
         envFrom:
