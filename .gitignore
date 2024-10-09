@@ -1,0 +1,11 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Python compile output
+*.pyo
+*.pyd
+
+# Test results or other temporary files
+test-results/
